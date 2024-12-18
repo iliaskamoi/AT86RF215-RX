@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="at86rf215_rx_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="at86rf215_rx_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44.841293 us"></ZoomStartTime>
+      <ZoomEndTime time="50.941294 us"></ZoomEndTime>
+      <Cursor1Time time="48.191293 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/aresetn">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/iq_data_in">
+      <obj_property name="ElementShortName">iq_data_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">iq_data_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/in_sync">
+      <obj_property name="ElementShortName">in_sync</obj_property>
+      <obj_property name="ObjectShortName">in_sync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/m00_axis_tvalid">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/m00_axis_tdata">
+      <obj_property name="ElementShortName">m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/m00_axis_tlast">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/at86rf215_rx_tb/m00_axis_tready">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/SYNC_THRESHOLD">
+      <obj_property name="ElementShortName">SYNC_THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYNC_THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/C_M00_AXIS_TDATA_WIDTH">
+      <obj_property name="ElementShortName">C_M00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_M00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/FIFO_DEPTH">
+      <obj_property name="ElementShortName">FIFO_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group91">
+      <obj_property name="label">sync</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/iq_data_in">
+         <obj_property name="ElementShortName">iq_data_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">iq_data_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/sample_rate">
+         <obj_property name="ElementShortName">sample_rate[3:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_rate[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/synced_data">
+         <obj_property name="ElementShortName">synced_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">synced_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/write_en">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/in_sync">
+         <obj_property name="ElementShortName">in_sync</obj_property>
+         <obj_property name="ObjectShortName">in_sync</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/input_word">
+         <obj_property name="ElementShortName">input_word[31:0]</obj_property>
+         <obj_property name="ObjectShortName">input_word[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/word_counter">
+         <obj_property name="ElementShortName">word_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">word_counter[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/inputs_counter">
+         <obj_property name="ElementShortName">inputs_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">inputs_counter[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/syncs_counter">
+         <obj_property name="ElementShortName">syncs_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">syncs_counter[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/first_sync">
+         <obj_property name="ElementShortName">first_sync</obj_property>
+         <obj_property name="ObjectShortName">first_sync</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/last_input_of_word">
+         <obj_property name="ElementShortName">last_input_of_word</obj_property>
+         <obj_property name="ObjectShortName">last_input_of_word</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/sync_cond">
+         <obj_property name="ElementShortName">sync_cond</obj_property>
+         <obj_property name="ObjectShortName">sync_cond</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/at86rf215_iq_rx_sync_inst/last_sync">
+         <obj_property name="ElementShortName">last_sync</obj_property>
+         <obj_property name="ObjectShortName">last_sync</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group104">
+      <obj_property name="label">fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/fifo_inst/write_en">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/write_data">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/fifo_inst/read_en">
+         <obj_property name="ElementShortName">read_en</obj_property>
+         <obj_property name="ObjectShortName">read_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/read_data">
+         <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/fifo_inst/empty">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/mem">
+         <obj_property name="ElementShortName">mem[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/read_ptr">
+         <obj_property name="ElementShortName">read_ptr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">read_ptr[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/write_ptr">
+         <obj_property name="ElementShortName">write_ptr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">write_ptr[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/fifo_count">
+         <obj_property name="ElementShortName">fifo_count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/at86rf215_rx_tb/dut/fifo_inst/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/dut/fifo_inst/DEPTH">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/curre_val">
+      <obj_property name="ElementShortName">curre_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curre_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/iq_data_in">
+      <obj_property name="ElementShortName">iq_data_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">iq_data_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/at86rf215_rx_tb/sync_value">
+      <obj_property name="ElementShortName">sync_value[299:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_value[299:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>
